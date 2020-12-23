@@ -1,0 +1,45 @@
+{
+	"Records": [
+		{
+			"eventVersion": "2.1",
+			"eventSource": "aws:s3",
+			"awsRegion": "us-east-1",
+			"eventTime": "2020-12-18T16:47:42.048Z",
+			"eventName": "ObjectRestore:Completed",
+			"userIdentity": {
+				"principalId": "AmazonCustomer:Z6QSXWTWM4S713"
+			},
+			"requestParameters": {
+				"sourceIPAddress": "s3.amazonaws.com"
+			},
+			"responseElements": {
+				"x-amz-request-id": "11BFA234302ECB7E",
+				"x-amz-id-2": "BMC12v/f6qzteOwhmlVcHJBG0zYne3zqD0JxcYpx6jLjwW1tkaE6GRRxAxp2usWyLqNWph0T0Uq3pvNnLJSS3w=="
+			},
+			"s3": {
+				"s3SchemaVersion": "1.0",
+				"configurationId": "RestoreEvent",
+				"bucket": {
+					"name": "restore-api",
+					"ownerIdentity": {
+						"principalId": "AmazonCustomer:Z6QSXWTWM4S713"
+					},
+					"arn": "arn:aws:s3:::restore-api"
+				},
+				"object": {
+					"key": "test-600x300.jpg",
+					"size": 7904,
+					"eTag": "f922ef38e525d9d2f2bd1e465e4a0699",
+					"versionId": "d3CRGM3ArUfWWTnzcUfMqFi1DCNtsma8",
+					"sequencer": "420PD7C2B41A99723G"
+				}
+			},
+			"glacierEventData": {
+				"restoreEventData": {
+					"lifecycleRestorationExpiryTime": "2020-12-19T00:00:00.000Z",
+					"lifecycleRestoreStorageClass": "GLACIER"
+				}
+			}
+		}
+	]
+}

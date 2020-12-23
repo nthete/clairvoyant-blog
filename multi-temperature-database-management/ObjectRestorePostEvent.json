@@ -1,0 +1,37 @@
+{
+	"Records": [
+		{
+			"eventVersion": "2.1",
+			"eventSource": "aws:s3",
+			"awsRegion": "us-east-1",
+			"eventTime": "2020-12-20T11:19:31.816Z",
+			"eventName": "ObjectRestore:Post",
+			"userIdentity": {
+				"principalId": "AWS:BODBKX4VOLKE7NXAX3QZTO:s3-batch-operations_0275909e-5ec3-4ca7-bd93-ce566917a276"
+			},
+			"requestParameters": {
+				"sourceIPAddress": "10.107.3.197"
+			},
+			"responseElements": {
+				"x-amz-request-id": "PAT6C6F999859F13",
+				"x-amz-id-2": "LDB5iulzvyFYcFjpztQA6DiXf06P4BoQoQQLUHZeLv4CYFtZiT166D1cuyPOGqbovCoHXRTmnqRZT="
+			},
+			"s3": {
+				"s3SchemaVersion": "1.0",
+				"configurationId": "RestoreEvent",
+				"bucket": {
+					"name": "restore-api",
+					"ownerIdentity": {
+						"principalId": "Z6QSXWTWM4S713"
+					},
+					"arn": "arn:aws:s3:::restore-api"
+				},
+				"object": {
+					"key": "test-600x300.jpg",
+					"size": 7904,
+					"sequencer": "420PD7C2B41A99723G"
+				}
+			}
+		}
+	]
+}

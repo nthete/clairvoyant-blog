@@ -1,0 +1,28 @@
+{
+  "job": {
+	"jobId": "b7b9e88e-42b0-11eb-b378-0242ac130002",
+	"description": "restore api job",
+	"jobArn": "arn:aws:s3:us-east-1:###########:job/b7b9e88e-42b0-11eb-b378-0242ac130002",
+	"status": "Complete",
+	"manifest": {
+	  "location": {
+		"objectArn": "arn:aws:s3:::restore-api/manifest.csv",
+		"etag": "8758459841b74ea193b3a6c55293c6f8"
+	  }
+	},
+	"operation": {
+	  "s3InitiateRestoreObject": {
+		"expirationInDays": 3,
+		"glacierJobTier": "BULK"
+	  }
+	},
+	"progressSummary": {
+	  "totalNumberOfTasks": 159,
+	  "numberOfTasksSucceeded": 159,
+	  "numberOfTasksFailed": 0
+	},
+	"failureReasons": [],
+	"creationTime": "2020-12-20T10:04:28.323+0000",
+	"terminationDate": "2021-01-20T10:05:19.895+0000"
+  }
+}
